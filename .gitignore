@@ -1,0 +1,11 @@
+# content.txt
+
+# massage.txt 
+
+*.txt
+
+content/
+
+**.ds_store
+
+**.vscode
