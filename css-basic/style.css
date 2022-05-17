@@ -1,0 +1,15 @@
+.box p {
+    font-weight: bold;
+}
+
+h2, p{
+    text-align: center;
+}
+
+#heading + .box {
+    background-color: blue;
+}
+
+p ~ .text {
+    font-style: italic;
+}
