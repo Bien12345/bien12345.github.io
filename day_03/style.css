@@ -1,0 +1,41 @@
+:root{
+    font-size: 14px;
+    --color-text: #32a852;
+    --color-heading :#0b1999;
+    --width  : 100px;
+    --heigh  : 100px;
+}
+
+.text{
+    
+    font-size: 2rem;
+    color:var(--color-text) ;
+}
+
+.heading {
+    color: var(--color-heading);
+}
+
+.box {
+    font-size: 20px;
+}
+
+.box p{
+    font-size: 2em;
+    color: var(--color-text);
+}
+.box h2{
+    color: var(--color-heading);
+}
+
+.parent {
+    width: valc(10 * var(--width));
+    height: valc(5 * var(--heigh));    
+    background-color: red;
+}
+
+.child{
+    width: 100%;
+    height: 50%;
+    background-color: peru;
+}
